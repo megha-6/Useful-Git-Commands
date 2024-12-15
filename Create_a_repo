@@ -1,0 +1,8 @@
+# Create a new local repository
+git init [project name]
+
+# Clone a repository
+git clone git_url
+
+# Clone a repository into a specified directory
+git clone git_url my_directory
