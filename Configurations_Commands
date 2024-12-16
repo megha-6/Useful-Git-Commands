@@ -1,0 +1,11 @@
+# Set the name that will be attached to your commits and tags
+git config --global user.name "name"
+
+# Set an email address that will be attached to your commits and tags
+git config --global user.email "email"
+
+# Enable some colorization of Git output
+git config --global color.ui auto
+
+# Edit the global configuration file in a text editor
+git config --global --edit
