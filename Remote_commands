@@ -1,0 +1,14 @@
+#Add a git URL as an alias
+git remote add [alias] [url]
+
+# Show the names of the remote repositories you've set up
+git remote
+
+# Show the names and URLs of the remote repositories
+git remote -v
+
+# Remove a remote repository
+git remote rm [remote repo name]
+
+# Change the URL of the git repo
+git remote set-url origin [git_url]
