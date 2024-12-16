@@ -1,0 +1,8 @@
+# Delete the file from project and stage the removal for commit
+git rm [file]
+
+# Change an existing file path and stage the move
+git mv [existing-path] [new-path]
+
+# Show all commit logs with indication of any paths that moved
+git log --stat -M
