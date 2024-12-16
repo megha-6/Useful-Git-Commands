@@ -1,0 +1,35 @@
+# Show modified files in working directory, staged for your next commit
+git status
+
+# Stages the file, ready for commit
+git add [file]
+
+# Stage all changed files, ready for commit
+git add .
+
+# Commit all staged files to version history
+git commit -m "commit message"
+
+# Commit all your tracked files to version history
+git commit -am "commit message"
+
+# Discard changes in working directory which is not staged
+git restore [file]
+
+# Unstage a staged file or file which is staged
+git restore --staged [file]
+
+# Unstage a file, keeping the file changes
+git reset [file]
+
+# Revert everything to the last commit
+git reset --hard
+
+# Diff of what is changed but not staged
+git diff
+
+# Diff of what is staged but not yet committed
+git diff --staged
+
+# Apply any commits of current branch ahead of specified one
+git rebase [branch]
