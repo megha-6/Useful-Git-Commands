@@ -1,0 +1,28 @@
+#List all local branches
+git branch
+
+# List all branches, local and remote
+
+
+$ git branch -av
+Switch to my_branch, and update working directory
+
+
+$ git checkout my_branch
+Create a new branch called new_branch
+
+
+$ git checkout -b new_branch
+Delete the branch called my_branch
+
+
+$ git branch -d my_branch
+Merge branchA into branchB
+
+
+$ git checkout branchB
+$ git merge branchA
+Tag the current commit
+
+
+$ git tag my_tag
