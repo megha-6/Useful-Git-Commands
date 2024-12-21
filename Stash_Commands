@@ -1,11 +1,13 @@
-# Save modified and staged changes
+## BELOW MENTIONED ARE THE COMMANDS RELATED TO STASHING ##
+
+# Command to save modified and staged changes.
 git stash
 
-# List stack-order of stashed file changes
+# Command to list stack-order of stashed file changes.
 git stash list
 
-# Write working from top of stash stack
-git stash pop
-
-# Discard the changes from top of stash stack
+# Command to discard the changes from top of stash stack
 git stash drop
+
+# Applies and removes the most recent stash from the stash list.
+git stash pop
