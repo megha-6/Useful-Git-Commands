@@ -1,14 +1,10 @@
-#Fetch down all the branches from that Git remote
+## BELOW MENTIONED ARE THE GIT COMMANDS RELATED TO SYNC ##
+
+# Command to fetch down all the branches from that Git remote.
 git fetch [alias]
 
-# Merge a remote branch into your current branch to bring it up to date
+# Commadn to merge a remote branch into your current branch to bring it up to date.
 git merge [alias]/[branch]
-
-# No fast-forward
-git merge --no-ff [alias]/[branch]
-
-# Only fast-forward
-git merge --ff-only [alias]/[branch]
 
 # Transmit local branch commits to the remote repository branch
 git push [alias] [branch]
@@ -18,3 +14,9 @@ git pull
 
 # Merge just one specific commit from another branch to your current branch
 git cherry-pick [commit_id]
+
+# Fetches changes from the specified remote repository and merges them into the current branch.
+git pull <remote>
+
+# Fetches changes from the remote repository and rebases the current branch onto the updated branch.
+git pull -rebase
