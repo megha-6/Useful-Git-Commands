@@ -13,4 +13,7 @@ git log --follow [file]
 # Command to displays the commit history of all branches.
 git log -all
 
+# This command displays a compact, one-line summary of each commit, showing a shortened commit hash and the commit message.
+git log --oneline 
+
 
