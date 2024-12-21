@@ -1,14 +1,16 @@
-# Show the commit history for the currently active branch
+
+## BELOW MENTIONED ARE THE COMMANDS RELATED TO LOGS ##
+
+# Command to display the commit history for the currently active branch.
 git log
 
-# Show the commits on branchA that are not on branchB
-git log branchB..branchA
+# Command to display  the commits on branchX that are not on branchY
+git log branchY..branchX
 
-# Show the commits that changed file, even across renames
+# Command to displays the commit history of a file, including its renames.
 git log --follow [file]
 
-# Show the diff of what is in branchA that is not in branchB
-git diff branchB...branchA
+# Command to displays the commit history of all branches.
+git log -all
 
-# Show any object in Git in human-readable format
-git show [SHA]
+
