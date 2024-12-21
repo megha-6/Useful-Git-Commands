@@ -1,21 +1,24 @@
-#List all local branches
+
+## BELOW MENTIONED ARE THE GIT COMMANDS RELATED TO BRANCHING ##
+
+# Commnad to lists all branches in the repository.
 git branch
 
-# List all branches, local and remote
-git branch -av
+# Command to lists all local and remote branches.
+git branch -a
 
-# Switch to my_branch, and update working directory
-git checkout my_branch
+# Command to switch to your specified branch 
+git checkout branch_name
 
-# Create a new branch called new_branch
-git checkout -b new_branch
+# Commadn to create a new branch and switches to it.
+git checkout -b branch_name
 
-# Delete the branch called my_branch
-git branch -d my_branch
+# Command to delete the branch called my_branch
+git branch -d branch_name
 
-# Merge branchA into branchB
-git checkout branchB
-git merge branchA
+# Command to merge branchX into branchY
+git checkout branchX
+git merge branchY
 
-# Tag the current commit
+# Command to tag the current commit
 git tag my_tag
