@@ -1,8 +1,12 @@
-# Delete the file from project and stage the removal for commit
+## BELOW MENTIONED ARE THE GIT COMMANDS RELATED TO "REMOVE" AND "MOVE" CONCEPT.
+
+# Command to delete the file from project and stage the removal for commit
 git rm [file]
 
-# Change an existing file path and stage the move
-git mv [existing-path] [new-path]
+# Command to moves or renames a file or directory in your Git repository.
+git mv 
 
-# Show all commit logs with indication of any paths that moved
+# Command to display all commit logs with indication of any paths that moved.
 git log --stat -M
+
+
