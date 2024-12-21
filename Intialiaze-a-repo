@@ -1,12 +1,14 @@
 
-# Initializes a new Git repository in the current directory.
+## BELOW MENTIONED ARE THE COMMANDS REALTED TO INTIALIZING YOUR A REPOSITORY ##
+
+# Command to initialize a new Git repository in the current directory.
 git init
 
-# Creates a new Git repository in the specified directory.
+# Command to create a new Git repository in the specified directory.
 git init <directory>
 
-# To Clones a repository from a remote server to your local machine.
+# Command to to clone a repository from a remote server to your local machine.
 git clone <repository_url>
 
-# Clones a specific branch from a repository.
+# Command to clone a specific branch from a repository.
 git clone –branch <branch_name> <repository_url>
