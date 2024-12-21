@@ -1,11 +1,25 @@
-# List all branches and their upstreams
-git branch -vv
 
-# Quickly switch to the previous branch
+## BELOW MENTIONED ARE THE GIT COMMANDS RELATED TO LISTING ##
+
+# Command to list all your branches
+git branch 
+
+# Command to list all local and remote branches.
+git branch -a 
+
+# Command to list all stashes in repository.
+git stash list
+
+# Command to list all tags in repository.
+git tag 
+
+# Command to list all remote repositories.
+git remote
+
+# Quickly switch to the previous branch.
 git checkout -
 
-# Get only remote branches
+# Command to get only remote branches.
 git branch -r
 
-# Checkout a single file from another branch
-git checkout <branch> -- <file>
+
