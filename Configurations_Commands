@@ -1,11 +1,12 @@
-# Set the name that will be attached to your commits and tags
+## BELOW MENTIONED ARE THE GIT COMMANDS RELATED TO CONFIGURATIONS ##
+
+# Command to set your username globally.
 git config --global user.name "name"
 
-# Set an email address that will be attached to your commits and tags
+# Command to set your email globally.
 git config --global user.email "email"
 
-# Enable some colorization of Git output
+# Command to enable some colorization of Git output
 git config --global color.ui auto
 
-# Edit the global configuration file in a text editor
-git config --global --edit
+
