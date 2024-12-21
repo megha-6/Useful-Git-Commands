@@ -1,31 +1,33 @@
-# Show modified files in working directory, staged for your next commit
+## BELOW MENTIONED ARE THE COMMANDS RELATED TO "MAKING CHANGES" ##
+
+# Command to display modified files in working directory, staged for your next commit.
 git status
 
-# Stages the file, ready for commit
+# Command to adds a specific file to the staging area.
 git add [file]
 
-# Stage all changed files, ready for commit
+# Command to stage all changed files, ready for commit.
 git add .
 
-# Commit all staged files to version history
+# Command to commit all staged files to version history.
 git commit -m "commit message"
 
-# Commit all your tracked files to version history
+# Command to commit all your tracked files to version history
 git commit -am "commit message"
 
-# Discard changes in working directory which is not staged
+# Command to discard changes in working directory which is not staged.
 git restore [file]
 
-# Unstage a staged file or file which is staged
+# Command to unstage a staged file or file which is staged.
 git restore --staged [file]
 
-# Unstage a file, keeping the file changes
+# Comamnd to unstage a file, keeping the file changes.
 git reset [file]
 
-# Revert everything to the last commit
+# Commadn to revert everything to the last commit
 git reset --hard
 
-# Diff of what is changed but not staged
+# Diff of what is changed but not staged.
 git diff
 
 # Diff of what is staged but not yet committed
